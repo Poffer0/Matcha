@@ -1,4 +1,99 @@
-* {background-color:linen; text-align:center;}
-        h1 {color:teal; font-size:60px;}
-        .second {color:grey;}
-        .first {font-size:20px;}
+* {
+    background-color: #fffbf7;
+    font-family: 'Open Sans', Serif;
+}
+
+.header {
+    color: #025157;
+    text-align: left;
+    margin: 20px 20px 0;
+    font-size: 0;
+}
+
+.header li {
+    display: inline;
+}
+
+.header > * {
+    display: inline-block;
+    font-family: 'Open Sans', serif;
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+.header .logo {
+    width: 15%;
+}
+
+.header .navbar {
+    width: 70%;
+    text-align: center;
+}
+
+.header .navbar ul {
+    padding: 0;
+}
+
+.header .actions {
+    width: 15%;
+    color: #67b54b;
+}
+
+button #trial {
+    background-color: #67b54b;
+    color: #fffbf7;
+}
+
+body {
+    color: #025157;
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Alegreya', serif;
+    font-size: 60px;
+    margin-top: 150px;
+}
+
+#subheader {
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+    color: #46484c;
+}
+
+h2 {
+    font-family: 'Alegreya', serif;
+    font-size: 40px;
+}
+
+.promo-text {
+    color: #8b8b8bcc;
+}
+
+.first {
+    font-size:20px;
+}
+
+.main {
+    margin-top: 140px;
+}
+
+
+button #email {
+    background-color: #025157;
+    color: #fff;
+    border: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 6px 20px;
+    margin-left: -10px;
+}
+
+input {
+    border: 1px solid #b6b6b6;
+    padding: 6px 20px;
+    width: 60%;
+    max-width: 250px;
+}
+
